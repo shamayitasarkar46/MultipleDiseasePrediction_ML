@@ -14,17 +14,18 @@ Created on Tue Feb  7 20:12:12 2023
 
 import pickle
 import streamlit as st
+
 from streamlit_option_menu import option_menu
 
 
 #Loading the saved models
 
 
-diabetes_model = pickle.load(open('"C:/Users/shama/Desktop/Disease Prediction/diabetes_model.sav"','rb'))
+diabetes_model = pickle.load(open('C:/Users/shama/Desktop/Disease Prediction/diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('"C:/Users/shama/Desktop/Disease Prediction/heart_disease_model.sav"','rb'))
+heart_disease_model = pickle.load(open('C:/Users/shama/Desktop/Disease Prediction/heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('"C:/Users/shama/Desktop/Disease Prediction/parkinsons_model.sav"','rb'))
+parkinsons_model = pickle.load(open('C:/Users/shama/Desktop/Disease Prediction/parkinsons_model.sav','rb'))
 
 
 #Sidebar for navigation
